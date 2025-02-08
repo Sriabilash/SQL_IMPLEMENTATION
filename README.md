@@ -1,5 +1,8 @@
+# SQL_IMPLEMENTATION FOR EMPLOYEE DETAILS:
+
+````
 -- Create database
-CREATE DATABASE Employe;
+CREATE DATABASE EmployeeDB;
 
 -- Use the database
 USE EmployeeDB;
@@ -89,3 +92,5 @@ SELECT * FROM Details WHERE First_name LIKE '%a%' AND Salary BETWEEN 85000 AND 9
 -- Truncate the table (Deletes all records but keeps structure)
 TRUNCATE TABLE Details;
 
+
+``````````
